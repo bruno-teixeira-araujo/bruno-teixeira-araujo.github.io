@@ -41,7 +41,6 @@ google_analytics_id     : G-V3CQ1NZBP1
 #gtag_id                 : 
 #analytics_id            : 
 
-# TODO: check later
 # Search providers
 # Available free search engines:
 # - lunr https://lunrjs.com/ 
@@ -98,13 +97,11 @@ navbar:
   brand:
     title   :  Home # Title in navbar
     url     :  # default["url/baseurl"]
-    img     :  # An small image, try 30x30px
+    img     :  /assets/img/favicon-32x32-white-transparent.png # An small image, try 30x30px
   nav:
   - title   : Blog # Label
-    url     : /blog/ # url	
-  - title   : Cheatsheets
-    url     : /cheatsheets
-  - title   : Extras # TODO: check later
+    url     : /blog/ # url
+  - title   : Extras
     child   :
       - title : Tags
         url   : /tags
@@ -112,8 +109,6 @@ navbar:
         url   : /categories
       - title : Archive
         url   : /archive
-      - title : Current skin
-        url   : /current-skin
 
 #Social links to be placed on your site footer
 footer:
@@ -136,7 +131,7 @@ googlefonts:
 
 # Theme and colors
 chulapa-skin: 
-  highlight     :  monokai # default["default"]
+  highlight     :  #monokai # default["default"]
   skin          :  lux # liked: towards, sunset, graymor, gitdev and lux # Optional predefined skins
   autothemer    :  true # true # Bool: Use autotheming
   vars          :    
@@ -148,16 +143,6 @@ chulapa-skin:
 paginate: 4
 paginate_path: "/blog/page:num/"
 paginator_maxnum: 3  #default[3] Custom: max of number to be displayed on the paginator
-
-# TODO: remove
-# Collections https://jekyllrb.com/docs/step-by-step/09-collections/
-collections:
-  cheatsheet:
-    output: true
-    permalink: /cheatsheets/:name
-collections_dir     : 
-permalink           : /:year:month:day_:title/
-
 
 # Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
@@ -190,19 +175,6 @@ defaults:
       breadcrumb_list   :
         - label: Blog
           url: /blog/
-  -
-    scope:
-      path: ""
-      type: "cheatsheet"
-    values:
-      header_type       : "hero"
-      show_bottomnavs   : true
-      show_sociallinks  : true
-      include_on_search : true
-      show_breadcrumb   : true
-      breadcrumb_list   :
-        - label: Cheatsheets
-          url: /cheatsheets
 
 
 # XX. Other settings - no need to modify
@@ -225,6 +197,7 @@ exclude:
   - README.md
   - Gemfile
   - vendor
+  - extras
 
 include:
  - _pages

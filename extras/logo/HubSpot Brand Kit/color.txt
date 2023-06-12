@@ -1,0 +1,1 @@
+Primary: #000000;Secondary:#ffd700 , #000000, #FFFFFF;

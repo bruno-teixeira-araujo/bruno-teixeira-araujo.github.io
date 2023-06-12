@@ -2,6 +2,6 @@
 layout: cloudcategory
 title: Categories
 permalink: /categories
-excerpt: Categories on this theme
+excerpt: Categories on this blog
 show_breadcrumb   : true
 ---

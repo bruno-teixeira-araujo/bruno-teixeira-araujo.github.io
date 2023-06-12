@@ -1,8 +1,8 @@
 ---
 layout: minimal
 title: Blog
-subtitle: 'News and updates'
-excerpt: Latest news
+subtitle: 'Latest updates'
+excerpt: Latest updates
 og_image: /assets/img/site/banner-blog.png
 ---
 <!-- Chulapa template for pagination -->
@@ -44,7 +44,7 @@ og_image: /assets/img/site/banner-blog.png
 			{%- assign lastclass ="invisible" -%}
   {%- else -%}
 	{%- endif -%}
-	            <nav aria-label="Page navigation example" class="container-lg mt-4 chulapa-pagination text-center">
+	            <nav aria-label="Page navigation" class="container-lg mt-4 chulapa-pagination text-center">
                 <ul class="col-md-8 offset-md-2 pagination justify-content-around ">
                     <li class="page-item {{ firstclass }} ">
                         <a class="page-link border-0 px-3 px-sm-4" href="{{- site.paginate_path | relative_url | replace: '/page:num/', '' -}}" tabindex="-1">

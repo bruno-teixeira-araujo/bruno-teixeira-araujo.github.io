@@ -10,7 +10,6 @@ Click [**Use this template**](https://github.com/dieghernan/chulapa-101/generate
 Contains basic configuration to get you a site with:
 
 - Sample posts and [paginated blog index](./blog/).
-- Sample collection with Markdown and kramdown cheatsheets and [collection index](./cheatsheets).
 - Archive pages for posts grouped by year, category, and tag.
 - Demo page with the different Bootstrap components and how they look with the actual skin settings.
 - Sample 404 page.
