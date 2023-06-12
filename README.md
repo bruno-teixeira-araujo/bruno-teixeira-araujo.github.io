@@ -1,4 +1,4 @@
-# Chulapa 101
+# Stochastic Learning Ascent
 
 Click [**Use this template**](https://github.com/dieghernan/chulapa-101/generate) button above for cloning this repo and get started with [Chulapa Jekyll theme](https://github.com/dieghernan/chulapa).
 
@@ -15,3 +15,22 @@ Contains basic configuration to get you a site with:
 - Sample files for extending the theme with your [own scripts](./_includes/custom/) and [css](./assets/css/).
 
 [Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own.
+
+## Theme Documentation
+Theme documentation can be found at: [Chulapa Theme](https://dieghernan.github.io/chulapa/docs/01-install).
+
+## Setup
+To build use:
+```
+bundle build
+```
+
+To test locally use:
+```
+bundle exec jekyll serve --livereload
+```
+
+To remove all generated files use:
+```
+bundle clean
+```
