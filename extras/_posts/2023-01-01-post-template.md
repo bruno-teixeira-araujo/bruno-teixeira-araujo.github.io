@@ -5,6 +5,7 @@ subtitle: A brief introduction
 header_type: hero # hero, image or splash
 header_img: https://picsum.photos/id/1018/2000/2000
 categories: [Supervised Learning]
+#date:   2023-01-01 12:00:00  # already defined in file name
 last_modified_at: 2023-02-02
 tags: [Data Science, Machine Learning, Deep Learning]
 project_links:
@@ -24,6 +25,8 @@ project_links:
 #      icon: "fab fa-facebook"
 #    - url: https://www.linkedin.com
 #      icon: "fab fa-linkedin"
+mathjax: true
+show_comments: true
 ---
 
 # Main Heading
@@ -76,3 +79,7 @@ foo(3)
 {% endif -%}
 
 Stochastic Learning Descent
+
+
+### Testing Mathjax:
+$$E=mc^2$$

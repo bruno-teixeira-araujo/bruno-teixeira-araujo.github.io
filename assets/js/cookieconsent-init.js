@@ -51,9 +51,9 @@ cc.run({
         'en': {
             consent_modal: {
                 title: cookie + ' We use cookies! ',
-                description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent.',
+                description: 'This website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it.',
                 primary_btn: {
-                    text: 'Accept all',
+                    text: 'Got it!',
                     role: 'accept_all'              // 'accept_selected' or 'accept_all'
                 },
                 secondary_btn: {
@@ -65,7 +65,7 @@ cc.run({
                 title: 'Cookie usage 📢',
                 save_settings_btn: 'Save settings',
                 accept_all_btn: 'Accept all',
-                reject_all_btn: 'Reject all',
+                //reject_all_btn: 'Reject all',
                 close_btn_label: 'Close',
                 cookie_table_headers: [
                     {col1: 'Name'},

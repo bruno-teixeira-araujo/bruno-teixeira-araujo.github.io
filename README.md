@@ -1,19 +1,4 @@
-# Stochastic Learning Ascent
-
-Click [**Use this template**](https://github.com/dieghernan/chulapa-101/generate) button above for cloning this repo and get started with [Chulapa Jekyll theme](https://github.com/dieghernan/chulapa).
-
-Contains basic configuration to get you a site with:
-
-- [Sample posts](./_posts/) and [paginated blog index](./blog/index.html).
-- Archive pages for posts grouped by year, category, and tag.
-- Demo page with the different Bootstrap components and how they look with the actual skin settings.
-- Sample 404 page.
-- Site search with Lunr.
-- Sample [`_config`](_config.yml) with minimal configuration.
-- Sample [`algolia-search.yml`](algolia-search.yml) for using Algolia+GitHub Actions. More guidance in the top of the file.
-- Sample files for extending the theme with your [own scripts](./_includes/custom/) and [css](./assets/css/).
-
-[Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own.
+# Stochastic Learning Ascent Documentation
 
 ## Original Repository
 Repository: [Chulapa Github](https://github.com/dieghernan/chulapa)
@@ -22,7 +7,15 @@ Repository: [Chulapa Github](https://github.com/dieghernan/chulapa)
 Demo: [here](https://jamstackthemes.dev/demo/theme/chulapa/)
 
 ## Theme Documentation
-Theme documentation can be found at: [Chulapa Theme](https://dieghernan.github.io/chulapa/docs/).
+Theme documentation can be found at: [Chulapa Theme](https://dieghernan.github.io/chulapa/docs).
+
+## Asset Resources
+Useful asset resources:
+ - Icons: at [flaticon](https://www.flaticon.com)
+ - Images: at [pixabay](https://pixabay.com/)
+
+## How to use Mathjax plugin
+See basic tutorial [here](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) and LaTeX math symbols [here](https://milde.users.sourceforge.net/LUCR/Math/mathpackages/fouriernc-symbols.pdf).
 
 ## Setup
 To build use:
@@ -39,3 +32,6 @@ To remove all generated files use:
 ```
 bundle clean
 ```
+
+After deploying in production open: 
+ - <https://bruno-teixeira-araujo.github.io/>.

@@ -6,4 +6,12 @@
 <!-- Cookies consent -->
 <link rel="stylesheet" href="/assets/css/cookieconsent.css" media="print" onload="this.media='all'">
 
+<!-- Mathjax support -->
+{% if page.mathjax %}
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } });
+    </script>
+    <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endif %}
+
 <!-- end custom head snippets -->

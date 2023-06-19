@@ -50,7 +50,7 @@ search:
   provider              : lunr #Select a provider for enable search: lunr, algolia, google
   label                 :  #default ["Search"] Text on navbar when search is enabled 
   landing_page          :  #default ["/search"] Link on navbar 
-  lunr_maxwords         :  #default [30] lunr only - May slow down your site build
+  lunr_maxwords         :  5000 #default [30] lunr only - May slow down your site build
   algolia_logo          :  true #Displays algolia logo. Should be set to true if you are on a community plan, otherwise false.  
 
 google_cse_id: #Your cse id
@@ -81,7 +81,7 @@ algolia:
     - desc(subtitle)
     
 comments:
-  provider:  Disqus #Enable comments via Disqus, giscus or Cactus.chat
+  provider:  disqus #Enable comments via Disqus, giscus or Cactus.chat
   disqus_shortname: stochastic-learning-ascent #Your site id : check your address https://{{ disqus.shortname }}.disqus.com/admin/
   cactus_shortname: #Your site id as registered with Cactus.chat
   
