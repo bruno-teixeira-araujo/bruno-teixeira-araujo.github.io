@@ -1,8 +1,9 @@
 ---
 title: The ingenious Logarithm function
 subtitle: in Data Science
+excerpt: Explore the ingenious application of logarithms in Machine Learning. Join me on this insightful journey to harness the power of logarithms in ML.
 header_type: hero # hero, image or splash
-header_img: /assets/img/posts/2023-06-14-clever-use-of-log-in-ml/log_header_img.jpg
+header_img: /assets/img/posts/2023-06-14-the-ingenious-use-of-log-in-ml/log_header_img.jpg
 categories: [Neural Networks]
 #date:   2023-01-01 12:00:00  # already defined in file name
 #last_modified_at: 2023-02-02
@@ -45,7 +46,7 @@ In a simplified definition, the logarithm function compresses the range of large
 
 It can be represented visually as shown in below plot.
 
-![Logarithm function](/assets/img/posts/2023-06-14-clever-use-of-log-in-ml/logarithm_function.png)
+![Logarithm function](/assets/img/posts/2023-06-14-the-ingenious-use-of-log-in-ml/logarithm_function.png)
 
 {:.figure-caption .text-center}
 *Fig. **01** - Logarithm function.*
@@ -80,14 +81,14 @@ Let's now discuss some concrete examples of the logarithm use in Data Science.
 ##### Bar chart visualization
 Have a look at the following bar graph:
 
-![Bar chart](/assets/img/posts/2023-06-14-clever-use-of-log-in-ml/bar_chart.png)
+![Bar chart](/assets/img/posts/2023-06-14-the-ingenious-use-of-log-in-ml/bar_chart.png)
 
 {:.figure-caption .text-center}
 *Fig. **02** - Bar chart where feature "A" has a bigger magnitude when compared with the other features.*
 
 In the bar chart above it is dificult to have a good overview about how features "B", "C" and "D" relate to each other. The solution to this visualization problem is simple. We should apply the logarithm transformation to each of the features. In fact, _matlibplot_ has this feature already built into the [bar chart](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.bar.html#matplotlib.axes.Axes.bar){:target="_blank"} functionality, supported by parameter ```log = True```.
 
-![Bar chart with log](/assets/img/posts/2023-06-14-clever-use-of-log-in-ml/bar_chart_log.png)
+![Bar chart with log](/assets/img/posts/2023-06-14-the-ingenious-use-of-log-in-ml/bar_chart_log.png)
 
 {:.figure-caption .text-center}
 *Fig. **03** - Bar chart with ```log = True```.*
@@ -98,14 +99,14 @@ Now it is easier to understand how features "B", "C" and "D" relate to each othe
 
 Here is an example of a synthetic feature with a right skewed distribution.
 
-![Right skewed distribution](/assets/img/posts/2023-06-14-clever-use-of-log-in-ml/right_skewed_distribution.png)
+![Right skewed distribution](/assets/img/posts/2023-06-14-the-ingenious-use-of-log-in-ml/right_skewed_distribution.png)
 
 {:.figure-caption .text-center}
 *Fig. **04** - Right skewed distribution.*
 
 This feature has a heavy-tailed distribution that puts more probability mass in the tail range than a Gaussian distribution.
 
-![Right skewed distribution after logarithm transformation](/assets/img/posts/2023-06-14-clever-use-of-log-in-ml/right_skewed_distribution_after_log_transform.png)
+![Right skewed distribution after logarithm transformation](/assets/img/posts/2023-06-14-the-ingenious-use-of-log-in-ml/right_skewed_distribution_after_log_transform.png)
 
 {:.figure-caption .text-center}
 *Fig. **05** - Right skewed distribution after logarithm transformation.*

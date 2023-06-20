@@ -7,7 +7,7 @@ cc.run({
     current_lang : 'en',
     autoclear_cookies : true,                   // default: false
     cookie_name: 'cc_cookie_sla',               // default: 'cc_cookie'
-    cookie_expiration : 30,                     // default: 182
+    cookie_expiration : 182,                    // default: 182
     page_scripts: true,                         // default: false
 
     // auto_language: null,                     // default: null; could also be 'browser' or 'document'

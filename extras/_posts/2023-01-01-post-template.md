@@ -2,6 +2,7 @@
 #layout: landingpage # change default layout
 title: Data Science
 subtitle: A brief introduction
+excerpt: Some excerpt here.
 header_type: hero # hero, image or splash
 header_img: https://picsum.photos/id/1018/2000/2000
 categories: [Supervised Learning]
